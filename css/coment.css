@@ -1,0 +1,33 @@
+.coment{
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.coment p{
+    margin: auto;
+    font: 24px/38px var(--fontBase);
+}
+
+.coment h5{
+    margin: auto;
+    font: var(--headline5);
+}
+
+.coment i{
+    font-size: 60px;
+    color: var(--primaryColor);
+}
+
+.coment i:hover{
+    color: var(--baseColor);
+}
+
+@media screen and (min-width: 768px){
+    .coment p{
+        font: 34px/55px var(--fontBase);
+    }
+}

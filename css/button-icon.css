@@ -1,0 +1,11 @@
+.button-icon{
+    padding: 4px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-icon i{
+    color: var(--primaryColor);
+    font-size: 24px;
+    vertical-align: middle;
+}

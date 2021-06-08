@@ -1,0 +1,15 @@
+.title{
+    background: var(--primaryColor);
+    color: var(--baseColor);
+    align-self: flex-start;
+    font: var(--headline5);
+    padding-block: 4px;
+    padding-inline: 8px;
+    box-shadow: -4px 4px 0 var(--baseColor);
+    margin-inline-start: 4px;
+    text-decoration: none;
+}
+
+.title:hover{
+    background: var(--secundaryColor);
+}

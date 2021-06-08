@@ -1,0 +1,28 @@
+.button{
+    background: var(--primaryColor);
+    color: var(--baseColor);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover{
+    background: var(--secundaryColor);
+}
+
+.button.is-secondary{
+    background: unset;
+    border: 2px solid var(--primaryColor);
+    color: var(--primaryColor);
+}
+
+.button.is-secondary:hover{
+    background: var(--baseColor);
+}

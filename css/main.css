@@ -1,0 +1,38 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./hero.css";
+@import "./header.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./coment.css";
+@import "./testimonials.css";
+@import "./projects.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+:root{
+    --fontBase: 'Montserrat', sans-serif;
+    --headline1: bold 95px/453.71px var(--fontBase);
+    --headline2: bold 59px/95px var(--fontBase);
+    --headline3: bold 48px/77px var(--fontBase);
+    --headline4: bold 34px/44px var(--fontBase);
+    --headline5: bold 24px/38px var(--fontBase);
+    --body1: 16px/25px var(--fontBase);
+    --body2: 14px/22px var(--fontBase);
+    --button: bold 14px/22px var(--fontBase);
+    --caption: bold 12px/19px var(--fontBase);
+    --primaryColor: #00153F;
+    --secundaryColor: #002775;
+    --baseColor: white;
+    --gradient: linear-gradient(135deg, #003973 0%, #E5E5BE 100%);
+}
+
+body{
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--primaryColor);
+    margin: 0;
+}
